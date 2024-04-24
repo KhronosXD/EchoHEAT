@@ -1,0 +1,505 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title> Dados </title>
+
+        <!-- CSS FILES -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        
+        <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,300;0,400;0,600;1,300&display=swap" rel="stylesheet">
+                
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <link href="css/bootstrap-icons.css" rel="stylesheet">
+
+        <link href="css/magnific-popup.css" rel="stylesheet">
+
+        <link href="css/tooplate-tween-agency.css" rel="stylesheet">
+
+<!--
+
+Tooplate 2128 Tween Agency
+
+https://www.tooplate.com/view/2128-tween-agency
+
+-->
+
+    </head>
+    
+    <body>
+
+        <nav class="navbar fixed-top navbar-expand-lg">
+            <div class="container">
+        
+                <a href="index.html" class="navbar-brand">
+                    <i class="bi-layers"></i> <em>Echo</em>HEAT
+                </a>
+        
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+        
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto"> <!-- Adicionando a classe ms-auto aqui -->
+                        <li>
+                            <a class="nav-link" href="index.html">Início</a>
+                        </li>
+        
+                        <li>
+                            <a class="nav-link" href="sobre.html">Sobre Nós</a>
+                        </li>
+        
+                        <li>
+                            <a class="nav-link" href="dados.html">Dados</a>
+                        </li>
+        
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" href="#section_4">Dashboard</a>
+                        </li>
+                        -->
+        
+                        <li>
+                            <a class="nav-link" href="manifesto.html">Manifesto</a>
+                        </li>
+        
+                        <!-- Fechando a tag <ul> -->
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+
+        <main>
+
+            <section class="hero d-flex justify-content-center align-items-center" id="section_1">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-8 col-12">
+                            <div class="heroText">
+                                <h1 class="text-white mb-lg-5 mb-4"> Os efeitos do aquecimento global: Um estudo e análise de dados. </h1>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="overlay"></div>
+            </section>
+
+            <style>
+                .nav-tabs {
+                    flex-wrap: nowrap;
+                    overflow-x: hidden; /* Remover a barra de rolagem horizontal */
+                    overflow-y: hidden;
+                }
+            </style>
+            
+            <section class="about section-padding" id="section_2">
+                <div class="container">
+                    <div class="row">
+            
+                        <div class="col-lg-6 col-12">
+                            <h2 class="mb-5">Dados obtidos</h2>
+                        </div>
+            
+                        <div class="col-lg-6 col-12">
+                            <nav>
+                                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                                    <button class="nav-link active" id="nav-intro-tab" data-bs-toggle="tab" data-bs-target="#nav-intro" type="button" role="tab" aria-controls="nav-intro" aria-selected="true">Introdução</button>
+                                    <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Linear</button>
+                                    <button class="nav-link" id="nav-faq-tab" data-bs-toggle="tab" data-bs-target="#nav-faq" type="button" role="tab" aria-controls="nav-faq" aria-selected="false">Polinomial</button>
+                                    <button class="nav-link" id="nav-intro1-tab" data-bs-toggle="tab" data-bs-target="#nav-intro1" type="button" role="tab" aria-controls="nav-intro1" aria-selected="false">Logarítmica</button>
+                                    <button class="nav-link" id="nav-profile1-tab" data-bs-toggle="tab" data-bs-target="#nav-profile1" type="button" role="tab" aria-controls="nav-profile1" aria-selected="false">Exponencial</button>
+                                    <button class="nav-link" id="nav-faq1-tab" data-bs-toggle="tab" data-bs-target="#nav-faq1" type="button" role="tab" aria-controls="nav-faq1" aria-selected="false">Potência</button>
+                                </div>
+                            </nav>
+                        </div>
+
+                        <style>
+                            .tab-content p {
+                                text-align: justify;
+                            }
+                        </style>
+
+                        <div class="col-12">
+                            <div class="tab-content" id="nav-tabContent">
+                                <div class="tab-pane fade show active" id="nav-intro" role="tabpanel" aria-labelledby="nav-intro-tab">
+                                    <div class="row">
+                                        <div>
+                                            <h3 class="mb-3">Introdução</h3>
+
+                                            <p>O aquecimento global, como resultado do efeito estufa (gerado pelas emissões de dióxido de carbono (CO2) entre outros gases na atmosfera) e das mudanças climáticas ocasionadas por atividades humanas, tem trazido consequências alarmantes para o meio ambiente. Desta forma, ele está ligado diretamente ao aumento do nível do mar, que como trazido pelo professor livre-docente Luiz Marques, do departamento de história do IFCH (Instituto de Filosofia e Ciências Humanas) da Unicamp, através da publicação “O degelo e a elevação do nível do mar” o aquecimento está relacionado ao degelo das geleiras e o aumento da temperatura superficial da água, que em conjunto, geram um círculo incessante de acontecimentos que segundo o autor levará a um aumento contínuo do nível do mar por um grande período de tempo, ainda que se considerasse haver reduções nas emissões de gases causadores do efeito estufa.</p>
+
+                                            <p>Com isso, Marques também aborda no texto “Consequências da elevação do nível do mar século XXI” como tal situação do aumento do nível do mar é alarmante. Ao trazer questões acerca de como o desenvolvimento urbano tende a ir cada vez mais para regiões litorâneas, onde diversas construções estão sendo realizadas, podendo assim resultar em um futuro não tão distante de inundações que afetem ou inviabilizem essas infraestruturas, além de situações que geram grande riscos à segurança não só estrutural das construções assim como da saúde dos habitantes, como é o caso de prováveis falhas em regiões que apresentem usinas nucleares em regiões costeiras, o que é bem comum devido as necessidades de resfriamento a ser atendidas pelas usina.</p>
+                                            
+                                            <p>Além disto, em questão de agravantes econômicos, diversos países pelo mundo utilizam de meios fluviais para realizar suas exportações comerciais, então pontos de portos marítimos são extremamente essenciais para a economia em um mundo globalizado, por isso uma possível perca destes pontos, pela ocorrência de inundações e elevações marítimas, trariam consequências refletidas em todo um sistema econômico. Por tais motivos, o monitoramento do nível do mar se tornou extremamente necessário, tendo assim uma finalidade de grande relevância voltada para servir de alerta para toda humanidade. 
+                                                Por isso a realizações de observações começou a ser feita via satélite em intervalos periódicos, para que cientistas possam acompanhar seu comportamento. Com o recebimento dessas informações o trabalho dos especialistas e analistas não se dão simplesmente pela recolha e monitoramento de dados, além disso é requisitado uma observação acerca da disposição das informações para que eles possam realizar previsões e preparações, que são fundamentais para se evitar crises regionais, nacionais ou até mundiais.
+                                                É nesse quesito que é requerido o uso de análises e métodos numéricos que auxiliam no estudo desse parâmetro. Um desses métodos que podem contribuir em tal análise é o dos Mínimos Quadrados (MMQ), que a partir de um caso ou situação que é descrita pela influência de várias variáveis, como o exemplo o aumento do nível do mar, em uma estimativa de valores constantes que são de grande utilidade na busca de soluções e estratégias.
+                                                </p>
+
+                                            <p>Para realizar o estudo do Método dos Mínimos Quadrados (MMQ) com relação ao aumento do nível do mar, primeiro foi realizada a obtenção dos dados via satélite fornecidos pela NASA, entretanto, foi necessário realizar-se uma adaptação de tais dados pelos seguintes motivos: Primeiramente, as medições via satélites não são realizadas com uma periodicidade padrão, sendo feitas 37 medições em determinados anos, 36 em outros, e apenas 9 em 2022, conforme o ano ainda segue, por isto foi calculada uma média anual para o período fornecido na planilha, ou seja, entre os anos de 1993 e 2022 (atualmente). A outra alteração foi feita nas medidas de variação do nível do mar (em milímetros), pois mesmo que a medição seja referente ao quanto o nível do mar global ascendeu desde a primeira medição realizada em 1993, o primeiro dado da planilha (referente a esta primeira medição) apresenta um valor de -38,56 mm, isto pois sua representação é feita com base numa medida padrão adotada, sendo referente a linha TOPEX/JASON. Desta forma, o valor de -38,56 mm significa que naquela primeira medição o nível do mar estava 38,56 mm abaixo da linha de referência, contudo não poderíamos utilizar valores negativos na análise do MMQ, pois não só não seria possível trabalhá-los em certos ajustes de cálculo (como os de logaritmo natural) como também iria distorcer a crescente do nível do mar observada. Assim, foi feito um acréscimo de 38,56 mm em todos os valores medidos, para que tais dados iniciem do zero e entreguem, no ano de 2022, o aumento total do nível do mar desde 1993.</p>
+
+                                            <p>Em seguida, em posse dos valores de x (anos) e y (aumento médio anual do nível do mar, em milímetros), realizamos os ajustes lineares para cada uma das funções trabalhadas, ou sejam: Linear, Exponencial, Logarítmica, Potência e Quadrática. Cada ajuste foi feito com o objetivo de modificar a função para que ela obtive-se uma “aparência” linear, o que consequente necessitou de uma adaptação dos valores de x e y, além da obtenção dos valores de seus somatórios, os de seu produto e o do quadrado de x, que sequencialmente foram empregados nas equações 1 e 2 (onde “n” representa o número de pontos x e y) para a obtenção dos coeficientes linear “b” e angular “a” da reta descrita pelos pontos. Tais linearizações estão descritas mais detalhadamente nos subtópicos a abaixo.</p>
+
+                                            <div class="row">
+                                                <div class="col">
+                                                    <img src="images/a.png" alt="Imagem 1">
+                                                </div>
+                                                <div class="col">
+                                                    <img src="images/b.png" alt="Imagem 2">
+                                                </div>
+                                            </div>
+
+                                            <p>Após obter os coeficientes de cada função, foi calculado o índice R², a fim de determinar quais funções se ajustam melhor ao comportamento dos dados analisados. Este índice, chamado coeficiente de determinação, foi calculado através da razão entre os somatórios da Soma dos quadrados da regressão (SQ Reg) e da Soma dos quadrados totais (SQ Tot). Tais índices também necessitaram do cálculo do valor médio da variável y (y_méd), bem como a aplicação da variável x em cada uma das funções lineares obtidas, como mostram as equações 3, 4 e 5.</p>
+
+                                            <div class="row">
+                                                <div class="col">
+                                                    <img src="images/1.png" alt="Imagem 1">
+                                                </div>
+                                                <div class="col">
+                                                    <img src="images/2.png" alt="Imagem 2">
+                                                </div>
+                                                <div class="col">
+                                                    <img src="images/3.png" alt="Imagem 3">
+                                                </div>
+                                            </div>
+                                            
+                                            <p></p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                                    <div class="row">
+                                        <div class="col-lg-5 col-12">
+                                            <h3 class="mb-3">Linear</h3>
+                                            <p>
+                                                &nbsp;&nbsp;&nbsp;&nbsp;Tabelamento usado: 
+                                               <br><br>
+                                           </p>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col">
+                                                <img src="images/dados/tabelamento.png" alt="Imagem 1">
+                                            </div>
+                                            <div class="col">
+                                                <img src="images/dados/linear2.png" alt="Imagem 2">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-12">
+                                            <p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                                        </div>
+
+                                        <div class="col-lg-6">
+                                            <img src="images/dados/linear3.png" alt="" width="30%">
+                                        </div>
+
+                                        <div class="col-lg-12">
+                                            <p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                                        </div>
+
+                                        <div class="col-lg-12">
+                                            <img src="images/dados/linear4.png" alt="" width="30%">
+                                        </div>
+
+                                        <div class="col-lg-12">
+                                            <p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                                        </div>
+
+                                        <div class="col-lg-12">
+                                            <img src="images/dados/linear5.png" alt="" width="100%">
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="tab-pane fade" id="nav-faq" role="tabpanel" aria-labelledby="nav-faq-tab">
+                                    <div class="row">
+                                        <div class="col-lg-5 col-12">
+                                            <h3 class="mb-3">Polinomial</h3>
+                                            <p>
+                                                &nbsp;&nbsp;&nbsp;&nbsp;Tabelamento usado: 
+                                               <br><br>
+                                           </p>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col">
+                                                <img src="images/dados/tabelamento.png" alt="Imagem 1">
+                                            </div>
+                                            <div class="col">
+                                                <img src="images/dados/polinomial2.png" alt="Imagem 2">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-12">
+                                            <p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                                        </div>
+
+                                        <div class="col-lg-6">
+                                            <img src="images/dados/polinomial3.png" alt="" width="30%">
+                                        </div>
+
+                                        <div class="col-lg-12">
+                                            <p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                                        </div>
+
+                                        <div class="col-lg-12">
+                                            <img src="images/dados/polinomial4.png" alt="" width="30%">
+                                        </div>
+
+                                        <div class="col-lg-12">
+                                            <p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                                        </div>
+
+                                        <div class="col-lg-12">
+                                            <img src="images/dados/polinomial5.png" alt="" width="30%">
+                                        </div>
+
+                                        <div class="col-lg-12">
+                                            <p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                                        </div>
+
+
+                                        <div class="col-lg-6">
+                                            <img src="images/dados/polinomial6.png" alt="" width="100%">
+                                        </div>
+
+                                        <div class="col-lg-12">
+                                            <p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                                        </div>
+
+                                        <div class="col-lg-6">
+                                            <img src="images/dados/polinomial7.png" alt="" width="100%">
+                                        </div>
+
+                                        <div class="col-lg-12">
+                                            <p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                                        </div>
+
+                                        <div class="col-lg-6">
+                                            <img src="images/dados/polinomial8.png" alt="" width="100%">
+                                        </div>
+
+                                        <div class="col-lg-12">
+                                            <p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                                        </div>
+
+                                        <div class="col-lg-12">
+                                            <img src="images/dados/polinomial9.png" alt="" width="100%">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="tab-pane fade" id="nav-intro1" role="tabpanel" aria-labelledby="nav-intro1-tab">
+                                    <div class="row">
+                                        <div class="col-lg-5 col-12">
+                                            <h3 class="mb-3">Logarítmica</h3>
+                                            <p>
+                                                &nbsp;&nbsp;&nbsp;&nbsp;Tabelamento usado: 
+                                               <br><br>
+                                           </p>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col">
+                                                <img src="images/dados/tabelamento.png" alt="Imagem 1">
+                                            </div>
+                                            <div class="col">
+                                                <img src="images/dados/log2.png" alt="Imagem 2">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-12">
+                                            <p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                                        </div>
+
+                                        <div class="col-lg-6">
+                                            <img src="images/dados/log3.png" alt="" width="30%">
+                                        </div>
+
+                                        <div class="col-lg-12">
+                                            <p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                                        </div>
+
+                                        <div class="col-lg-12">
+                                            <img src="images/dados/log4.png" alt="" width="30%">
+                                        </div>
+
+                                        <div class="col-lg-12">
+                                            <p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                                        </div>
+
+                                        <div class="col-lg-12">
+                                            <img src="images/dados/log5.png" alt="" width="100%">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="tab-pane fade" id="nav-profile1" role="tabpanel" aria-labelledby="nav-profile1-tab">
+                                    <div class="row">
+                                        <div class="col-lg-5 col-12">
+                                            <h3 class="mb-3">Exponencial</h3>
+                                            <p>
+                                                &nbsp;&nbsp;&nbsp;&nbsp;Tabelamento usado: 
+                                               <br><br>
+                                           </p>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col">
+                                                <img src="images/dados/tabelamento.png" alt="Imagem 1">
+                                            </div>
+                                            <div class="col">
+                                                <img src="images/dados/exp2.png" alt="Imagem 2">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-12">
+                                            <p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                                        </div>
+
+                                        <div class="col-lg-6">
+                                            <img src="images/dados/exp3.png" alt="" width="30%">
+                                        </div>
+
+                                        <div class="col-lg-12">
+                                            <p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                                        </div>
+
+                                        <div class="col-lg-12">
+                                            <img src="images/dados/exp4.png" alt="" width="30%">
+                                        </div>
+
+                                        <div class="col-lg-12">
+                                            <p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                                        </div>
+
+                                        <div class="col-lg-12">
+                                            <img src="images/dados/exp5.png" alt="" width="100%">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="tab-pane fade" id="nav-faq1" role="tabpanel" aria-labelledby="nav-faq1-tab">
+                                    <div class="row">
+                                        <div class="col-lg-5 col-12">
+                                            <h3 class="mb-3">Potência</h3>
+                                            <p>
+                                                &nbsp;&nbsp;&nbsp;&nbsp;Tabelamento usado: 
+                                               <br><br>
+                                           </p>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col">
+                                                <img src="images/dados/tabelamento.png" alt="Imagem 1">
+                                            </div>
+                                            <div class="col">
+                                                <img src="images/dados/pot2.png" alt="Imagem 2">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-12">
+                                            <p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                                        </div>
+
+                                        <div class="col-lg-6">
+                                            <img src="images/dados/pot3.png" alt="" width="30%">
+                                        </div>
+
+                                        <div class="col-lg-12">
+                                            <p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                                        </div>
+
+                                        <div class="col-lg-12">
+                                            <img src="images/dados/pot4.png" alt="" width="30%">
+                                        </div>
+
+                                        <div class="col-lg-12">
+                                            <p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                                        </div>
+
+                                        <div class="col-lg-12">
+                                            <img src="images/dados/pot5.png" alt="" width="100%">
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="address">
+                            <h4><em>Echo</em>HEAT</h4>
+                            <span><em>Website utilizado com fins educacionais, pelos alunos da disciplina de Cálculo Numérico</em></span>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="links text-center">
+                            <img src="images/PNG-brasão-Ufersa 1.png" alt="">
+                            <ul>
+                                <li><samp>UFERSA - Universidade Federal Rural do Semi-Árido</samp></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 text-right"> <!-- Adicionamos a classe text-right para alinhar à direita -->
+                        <div class="hours">
+                            <h4 class="text-right">Dados do trabalho</h4> <!-- Adicionamos a classe text-right -->
+                            <span class="text-right">Trabalho apresentado na disciplina de Cálculo Numérico para avaliação da terceira unidade do semestre 2023.2</span> <!-- Adicionamos a classe text-right -->
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="under-footer">
+                            <div class="row">
+                                <div class="col-lg-6 col-sm-6">
+                                    <p>Mossoró, Rio Grande do Norte</p>
+                                </div>
+                                <div class="col-lg-6 col-sm-6 text-right"> <!-- Adicionamos a classe text-right para alinhar à direita -->
+                                    <p class="copyright text-right">Copyright 2024 <em>Echo</em>HEAT Company 
+                            
+                                    <br>Design: <a rel="nofollow" href="https://www.tooplate.com" target="_parent">Tooplate</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+
+        
+
+        <!-- JAVASCRIPT FILES -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/popper.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.backstretch.min.js"></script>
+        <script src="js/jquery.magnific-popup.min.js"></script>
+        <script src="js/magnific-popup-options.js"></script>
+        <script src="js/click-scroll.js"></script>
+        <script src="js/custom.js"></script>
+    </body>
+</html>
